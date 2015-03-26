@@ -1,113 +1,103 @@
---[[
-	--- This is Wilson's speech file for Don't Starve Together ---
-	Write your character's lines here. If you want to use another speech file as a base, get them from data\scripts\
-	
-	If you have the DLC and want custom lines for those, use a speech file from data\DLC0001\scripts instead.
-	
-	If you want to use quotation marks in a quote, put a \ before it.
-	Example:
-	"Like \"this\"."
-]]
 return {
 	ACTIONFAIL =
 	{
 		SHAVE =
 		{
-			AWAKEBEEFALO = "I'm not going to try that while he's awake.",
-			GENERIC = "I can't shave that!",
-			NOBITS = "There isn't even any stubble left!",
+			AWAKEBEEFALO = "I will get murderized if I try that.",
+			GENERIC = "No shaving today.",
+			NOBITS = "There aint nothing left!",
 		},
 		STORE =
 		{
-			GENERIC = "It's full.",
-			NOTALLOWED = "That can't go in there.",
-			INUSE = "I should wait my turn.",
+			GENERIC = "I'm surprised we fit that much to begin with.",
+			NOTALLOWED = "Some strange force blocks the item from entering.",
+			INUSE = "Apparently we cannot share.",
 		},
 		RUMMAGE =
-		{	
-			GENERIC = "I can't do that.",
-			INUSE = "I should wait my turn.",	
+		{
+			GENERIC = "I want to see what is in there.",
+			INUSE = "Apparently we cannot share.",
 		},
         COOK =
         {
-            GENERIC = "I can't do that.",
-            INUSE = "I should wait my turn.",
+            GENERIC = "But I'm hungry...",
+            INUSE = "Apparently we cannot share.",
         },
-        GIVETOPLAYER = 
+        GIVETOPLAYER =
         {
-        	FULL = "Their pockets are too full!",
+        	FULL = "Just take it already!",
     	},
-    	GIVEALLTOPLAYER = 
+    	GIVEALLTOPLAYER =
         {
-        	FULL = "Their pockets are too full!",
+        	FULL = "They just cant handle all these feels. I mean items.",
     	},
 	},
-	ACTIONFAIL_GENERIC = "I can't do that.",
-	ANNOUNCE_ADVENTUREFAIL = "That didn't go well. I'll have to try again.",
-	ANNOUNCE_BEES = "BEEEEEEEEEEEEES!!!!",
-	ANNOUNCE_BOOMERANG = "Ow! I should try to catch that!",
-	ANNOUNCE_CHARLIE = "What was that?!",
-	ANNOUNCE_CHARLIE_ATTACK = "OW! Something bit me!",
-	ANNOUNCE_COLD = "So Cold!",
-	ANNOUNCE_CRAFTING_FAIL = "I don't have all of the ingredients.",
-	ANNOUNCE_DEERCLOPS = "That sounded big!",
-	ANNOUNCE_DUSK = "It's getting late. It will be dark soon.",
+	ACTIONFAIL_GENERIC = "Well, that didn't work.",
+	ANNOUNCE_ADVENTUREFAIL = "My adventurous spirit shall not be discouraged.",
+	ANNOUNCE_BEES = "[BEES]",
+	ANNOUNCE_BOOMERANG = "Ow! Damn 'Strayans.",
+	ANNOUNCE_CHARLIE = "That was a spoopy noise.",
+	ANNOUNCE_CHARLIE_ATTACK = ">tfw spooped to death.",
+	ANNOUNCE_COLD = "It's a might bit chilly.",
+	ANNOUNCE_CRAFTING_FAIL = "I appear to be missing a doohickey or whatnot.",
+	ANNOUNCE_DEERCLOPS = "That sounds like something I don't want to deal with.",
+	ANNOUNCE_DUSK = "Oh lord, it gon' get spoopy soon.",
 	ANNOUNCE_EAT =
 	{
-		GENERIC = "Yum!",
-		PAINFUL = "I don't feel so good.",
-		SPOILED = "Yuck! That was terrible!",
-		STALE = "I think that was starting to turn.",
+		GENERIC = "That was pretty delish.",
+		PAINFUL = "I wonder if I can hit Steve with the projectile vomit.",
+		SPOILED = "Icky. Don't eat that.",
+		STALE = "I've had better. Much better.",
 	},
-	ANNOUNCE_ENTER_DARK = "It's so dark!",
-	ANNOUNCE_ENTER_LIGHT = "I can see again!",
-	ANNOUNCE_FREEDOM = "I'm free! I'm finally free!",
-	ANNOUNCE_HIGHRESEARCH = "I feel so smart now!",
-	ANNOUNCE_HOUNDS = "Did you hear that?",
-	ANNOUNCE_HUNGRY = "I'm so hungry!",
-	ANNOUNCE_HUNT_BEAST_NEARBY = "This track is fresh, the beast must be nearby.",
-	ANNOUNCE_HUNT_LOST_TRAIL = "The trail ends here.",
-	ANNOUNCE_INV_FULL = "I can't carry any more stuff!",
-	ANNOUNCE_KNOCKEDOUT = "Ugh, my head!",
-	ANNOUNCE_LOWRESEARCH = "I didn't learn very much from that.",
-	ANNOUNCE_MOSQUITOS = "Aaah! Bug off!",
-	ANNOUNCE_NODANGERSLEEP = "It's too dangerous right now!",
-	ANNOUNCE_NODAYSLEEP = "It's too bright out.",
-	ANNOUNCE_NODAYSLEEP_CAVE = "I'm not tired.",
-	ANNOUNCE_NOHUNGERSLEEP = "I'm too hungry to sleep, the growling will keep me up!",
-	ANNOUNCE_NODANGERAFK = "Now's not the time to flee this fight!",
-	ANNOUNCE_NO_TRAP = "Well, that was easy.",
-	ANNOUNCE_PECKED = "Ow! Quit it!",
-	ANNOUNCE_QUAKE = "That doesn't sound good.",
-	ANNOUNCE_RESEARCH = "Never stop learning!",
-	ANNOUNCE_THORNS = "Ow!",
-	ANNOUNCE_TORCH_OUT = "My light just ran out!",
-	ANNOUNCE_TRAP_WENT_OFF = "Oops.",
-	ANNOUNCE_UNIMPLEMENTED = "OW! I don't think it's ready yet.",
-	ANNOUNCE_WORMHOLE = "That was not a sane thing to do.",
-	ANNOUNCE_CANFIX = "\nI think I can fix this!",
-	ANNOUNCE_ACCOMPLISHMENT = "I feel so accomplished!",
-	ANNOUNCE_ACCOMPLISHMENT_DONE = "If only my friends could see me now...",	
-	ANNOUNCE_BECOMEGHOST = "ooOOoooOOOoOooo!!",
-	ANNOUNCE_GHOSTDRAIN = "My humanity is about to start slipping away...",
+	ANNOUNCE_ENTER_DARK = "I hear the spoops are out here.",
+	ANNOUNCE_ENTER_LIGHT = "Good, we are away from the spoops.",
+	ANNOUNCE_FREEDOM = "I'm free!",
+	ANNOUNCE_HIGHRESEARCH = "My thirst for knowledge has been sated.",
+	ANNOUNCE_HOUNDS = "That did not sound good. At all.",
+	ANNOUNCE_HUNGRY = "I'm a right bit peckish. FEED ME.",
+	ANNOUNCE_HUNT_BEAST_NEARBY = "I CAN SMELL ITS BLOOD",
+	ANNOUNCE_HUNT_LOST_TRAIL = "Awww, the food has gotten away.",
+	ANNOUNCE_INV_FULL = "I can't carry any more stuff. Honestly, I don't know how I'm carrying this much already.",
+	ANNOUNCE_KNOCKEDOUT = "Did I get knocked out? I hope Steve didn't take advantage of this situation...",
+	ANNOUNCE_LOWRESEARCH = "I knew that already. I WANT MORE SCIENCE.",
+	ANNOUNCE_MOSQUITOS = "These are the scourge of this universe. And the other universes.",
+	ANNOUNCE_NODANGERSLEEP = "I cannot sleep with all of the nearby spoop.",
+	ANNOUNCE_NODAYSLEEP = "It's too bright to sleep.",
+	ANNOUNCE_NODAYSLEEP_CAVE = "I couldn't sleep if I tried.",
+	ANNOUNCE_NOHUNGERSLEEP = "I must consume the flesh before I sleep.",
+	ANNOUNCE_NODANGERAFK = "I cannot leave when there is this much spoop nearby.",
+	ANNOUNCE_NO_TRAP = "*click* That was easy.",
+	ANNOUNCE_PECKED = "Ow! Stupid bird!",
+	ANNOUNCE_QUAKE = "The ground is supposed to be stable.",
+	ANNOUNCE_RESEARCH = "My thrist for knowledge cannot be quenched!",
+	ANNOUNCE_THORNS = "This plant is mean.",
+	ANNOUNCE_TORCH_OUT = "Whelp. I hope the spoop doesn't get me.",
+	ANNOUNCE_TRAP_WENT_OFF = "I almost trapped myself.",
+	ANNOUNCE_UNIMPLEMENTED = "The science prevents this from happening.",
+	ANNOUNCE_WORMHOLE = "Steve would have liked that hole...",
+	ANNOUNCE_CANFIX = "\nThis can be improved.",
+	ANNOUNCE_ACCOMPLISHMENT = "I can do this real good.",
+	ANNOUNCE_ACCOMPLISHMENT_DONE = "Achievement get! Plus gut!",
+	ANNOUNCE_BECOMEGHOST = "YES! I am now the spoop.",
+	ANNOUNCE_GHOSTDRAIN = "The spoop is making me go crazy.",
 
-	DESCRIBE_SAMECHARACTER = "Is that a mirror?",
-	
+	DESCRIBE_SAMECHARACTER = "Itsa me! Not Mario! Just Sean.",
+
 	BATTLECRY =
 	{
-		GENERIC = "Go for the eyes!",
-		PIG = "Here piggy piggy!",
-		PREY = "I will destroy you!",
-		SPIDER = "I'm going to stomp you dead!",
-		SPIDER_WARRIOR = "Better you than me!",
+		GENERIC = "Get #rekt, friend.",
+		PIG = "Pork, wonderful pork!",
+		PREY = "Get back here food. I hunger for your flesh!",
+		SPIDER = "Get squished, spider-bro!",
+		SPIDER_WARRIOR = "KILL! DESTROY!",
 	},
 	COMBAT_QUIT =
 	{
-		GENERIC = "I sure showed him!",
-		PIG = "I'll let him go. This time.",
-		PREY = "He's too fast!",
-		SPIDER = "He's too gross, anyway.",
-		SPIDER_WARRIOR = "Shoo, you nasty thing!",
+		GENERIC = "Alas, I could not make him #rekt.",
+		PIG = "Darn. I wanted teh pork.",
+		PREY = "Get back here!",
+		SPIDER = "Nope nope nope nope nope.",
+		SPIDER_WARRIOR = "Very nope nope nope nope.",
 	},
 	DESCRIBE =
 	{
@@ -115,11 +105,11 @@ return {
         {
             GENERIC = "It's %s!",
             ATTACKER = "That %s looks shifty...",
-            MURDERER = "Murderer!",
+            MURDERER = "They muderized someone!",
             REVIVER = "%s, friend of ghosts.",
             GHOST = "%s could use a heart.",
         },
-		WILSON = 
+		WILSON =
 		{
 			GENERIC = "It's Wilson!",
 			ATTACKER = "That Wilson looks shifty...",
@@ -127,7 +117,7 @@ return {
 			REVIVER = "Wilson, friend of ghosts.",
 			GHOST = "Wilson could use a heart.",
 		},
-		WOLFGANG = 
+		WOLFGANG =
 		{
 			GENERIC = "It's Wolfgang!",
 			ATTACKER = "That Wolfgang looks shifty...",
@@ -135,7 +125,7 @@ return {
 			REVIVER = "Wolfgang, friend of ghosts.",
 			GHOST = "Wolfgang could use a heart.",
 		},
-		WAXWELL = 
+		WAXWELL =
 		{
 			GENERIC = "It's Maxwell!",
 			ATTACKER = "That Maxwell looks shifty...",
@@ -143,7 +133,7 @@ return {
 			REVIVER = "Maxwell, friend of ghosts.",
 			GHOST = "Maxwell could use a heart.",
 		},
-		WX78 = 
+		WX78 =
 		{
 			GENERIC = "It's WX-78!",
 			ATTACKER = "That WX-78 looks shifty...",
@@ -151,7 +141,7 @@ return {
 			REVIVER = "WX-78, friend of ghosts.",
 			GHOST = "WX-78 could use a heart.",
 		},
-		WILLOW = 
+		WILLOW =
 		{
 			GENERIC = "It's Willow!",
 			ATTACKER = "That Willow looks shifty...",
@@ -159,7 +149,7 @@ return {
 			REVIVER = "Willow, friend of ghosts.",
 			GHOST = "Willow could use a heart.",
 		},
-		WENDY = 
+		WENDY =
 		{
 			GENERIC = "It's Wendy!",
 			ATTACKER = "That Wendy looks shifty...",
@@ -167,7 +157,7 @@ return {
 			REVIVER = "Wendy, friend of ghosts.",
 			GHOST = "Wendy could use a heart.",
 		},
-		WOODIE = 
+		WOODIE =
 		{
 			GENERIC = "It's Woodie!",
 			ATTACKER = "That Woodie looks shifty...",
@@ -175,7 +165,7 @@ return {
 			REVIVER = "Woodie, friend of ghosts.",
 			GHOST = "Woodie could use a heart.",
 		},
-		WICKERBOTTOM = 
+		WICKERBOTTOM =
 		{
 			GENERIC = "It's Wickerbottom!",
 			ATTACKER = "That Wickerbottom looks shifty...",
@@ -183,7 +173,7 @@ return {
 			REVIVER = "Wickerbottom, friend of ghosts.",
 			GHOST = "Wickerbottom could use a heart.",
 		},
-		WES = 
+		WES =
 		{
 			GENERIC = "It's Wes!",
 			ATTACKER = "That Wes looks shifty...",
@@ -191,8 +181,8 @@ return {
 			REVIVER = "Wes, friend of ghosts.",
 			GHOST = "Wes could use a heart.",
 		},
-		MULTIPLAYER_PORTAL = "It's rickety, but it appears to function. After a fashion...",
-		WORMLIGHT = "Looks delicious.",
+		MULTIPLAYER_PORTAL = "I wonder how it works.",
+		WORMLIGHT = "What is?",
 		WORM =
 		{
 		    PLANT = "Seems safe to me.",
@@ -226,9 +216,9 @@ return {
 		DAWN = "The nightmare is almost gone!",
 		NOMAGIC = "There's no magic around here.",
 		},
-		BISHOP_NIGHTMARE = "It's falling apart!",
-		ROOK_NIGHTMARE = "Terrifying!",
-		KNIGHT_NIGHTMARE = "It's a knightmare!",
+		BISHOP_NIGHTMARE = "Can go diagonally across the board. To kill.",
+		ROOK_NIGHTMARE = "Can go strait across the board. To maim.",
+		KNIGHT_NIGHTMARE = "Jumps in L shapes, for some reason.",
 		MINOTAUR = "That thing doesn't look happy.",
 		SPIDER_DROPPER = "Note to self: Don't look up.",
 		NIGHTMARELIGHT = "I wonder what function this served.",
@@ -239,7 +229,7 @@ return {
 		ORANGESTAFF = "This beats walking.",
 		YELLOWAMULET = "Warm to the touch.",
 		GREENAMULET = "Just when I thought I couldn't get any better.",
-		SLURPERPELT = "Doesn't look much different dead.",	
+		SLURPERPELT = "Doesn't look much different dead.",
 
 		SLURPER = "It's so hairy!",
 		SLURPER_PELT = "Doesn't look much different dead.",
@@ -248,19 +238,19 @@ return {
 		YELLOWSTAFF = "I put a gem on a stick.",
 		YELLOWGEM = "This gem is yellow.",
 		ORANGEGEM = "It's an orange gem.",
-		TELEBASE = 
+		TELEBASE =
 		{
 			VALID = "It's ready to go.",
 			GEMS = "It needs more purple gems.",
 		},
-		GEMSOCKET = 
+		GEMSOCKET =
 		{
 			VALID = "Looks ready.",
 			GEMS = "It needs a gem.",
 		},
 		STAFFLIGHT = "That seems really dangerous.",
 		RESEARCHLAB4 = "Who would name something that?",
-	
+
         ANCIENT_ALTAR = "An ancient and mysterious structure.",
 
         ANCIENT_ALTAR_BROKEN = "This seems to be broken.",
@@ -274,7 +264,7 @@ return {
 		CAVE_BANANA_COOKED = "Yum!",
 		CAVE_BANANA_TREE = "It's dubiously photosynthetical.",
 		ROCKY = "It has terrifying claws.",
-		
+
 		COMPASS =
 		{
 			GENERIC="I can't get a reading.",
@@ -299,7 +289,7 @@ return {
 			NOMAGIC = "There's no magic around here.",
 		},
 
-		HOUNDSTOOTH="It's sharp!",
+		HOUNDSTOOTH="2pointy4me",
 		ARMORSNURTLESHELL="It sticks to my back.",
 		BAT="Ack! That's terrifying!",
 		BATBAT = "I wonder if I could fly with two of these.",
@@ -354,163 +344,163 @@ return {
 		TURF_MUD="Yet another ground type.",
 
 		POWCAKE = "I don't know if I'm hungry enough.",
-        CAVE_ENTRANCE = 
+        CAVE_ENTRANCE =
         {
             GENERIC="I wonder if I could move that rock.",
             OPEN = "I bet there's all sorts of things to discover down there.",
         },
         CAVE_EXIT = "I've had enough discovery for now.",
 		MAXWELLPHONOGRAPH = "So that's where the music was coming from.",
-		BOOMERANG = "Aerodynamical!",
+		BOOMERANG = "What an aerodynamic design.",
 		PIGGUARD = "He doesn't look as friendly as the others.",
-		ABIGAIL = "Awww, she has a cute little bow.",
+		ABIGAIL = "At least its a friendly spoop.",
 		ADVENTURE_PORTAL = "I'm not sure I want to fall for that a second time.",
-		AMULET = "I feel so safe when I'm wearing it.",
-		ANIMAL_TRACK = "Tracks left by food. I mean... an animal.",
-		ARMORGRASS = "I hope there are no bugs in this.",
-		ARMORMARBLE = "This looks really heavy.",
-		ARMORWOOD = "That is a perfectly reasonable piece of clothing.",
-		ARMOR_SANITY = "Wearing this makes me feel safe and insecure.",
+		AMULET = "I feel so pretty in this jewelry.",
+		ANIMAL_TRACK = "There is a thing this way. I might be able to eat it.",
+		ARMORGRASS = "This would only protect against alpha radiation.",
+		ARMORMARBLE = "This shouldn't even work.",
+		ARMORWOOD = "How does this even work?",
+		ARMOR_SANITY = "I am safe, but what if I miss some science.",
 		ASH =
 		{
-			GENERIC = "All that's left after fire has done its job.",
-			REMAINS_EYE_BONE = "The eyebone was consumed by fire when I teleported!",
-			REMAINS_THINGIE = "This was once some thing before it got burned...",
+			GENERIC = "The remains from a fire.",
+			REMAINS_EYE_BONE = "CHESTER NOOOOOOOOOO.",
+			REMAINS_THINGIE = "This used to be a thing. Well, I guess it is still a thing.",
 		},
-		AXE = "It's my trusty axe.",
-		BABYBEEFALO = "Awwww. So cute!",
-		BACKPACK = "It's for me to put my stuff in.",
-		BACONEGGS = "I cooked it myself!",
-		BANDAGE = "Seems sterile enough.",
+		AXE = "I can hit other things with this.",
+		BABYBEEFALO = "Its meat would be tender at that age,",
+		BACKPACK = "This thing can hold more things.",
+		BACONEGGS = "BREAKFAST FOOD IS BESTEST FOOD.",
+		BANDAGE = "This can make people get better.",
 		BASALT = "That's too strong to break through!",
-		BATBAT = "I bet I could fly if I held two of these.",
-		BEARDHAIR = "I made them with my face.",
-		BEDROLL_STRAW = "It smells like wet.",
+		BATBAT = "Bat-ception",
+		BEARDHAIR = "I could combine these to make a super-beard.",
+		BEDROLL_STRAW = "Uncomfortable sleepy time.",
 		BEE =
 		{
-			GENERIC = "To bee or not to bee.",
-			HELD = "Careful!",
+			GENERIC = "I wish I had a bee army.",
+			HELD = "I am expecting to be stung at any second.",
 		},
 		BEEBOX =
 		{
-			FULLHONEY = "It's full of honey.",
-			GENERIC = "Bees!",
-			NOHONEY = "It's empty.",
-			SOMEHONEY = "I should wait a bit.",
+			FULLHONEY = "Mmmm, delish honey. Good on bread.",
+			GENERIC = "[BEES]",
+			NOHONEY = "Not much there.",
+			SOMEHONEY = "It will soon have full honey.",
 		},
 		BEEFALO =
 		{
-			FOLLOWER = "He's coming along peacefully.",
-			GENERIC = "It's a beefalo!",
-			NAKED = "Aww, he's so sad.",
-			SLEEPING = "These guys are really heavy sleepers.",
+			FOLLOWER = "Yes, come along to your doom.",
+			GENERIC = "Its like a weird buffalo.",
+			NAKED = "Alas, we cannot shave it any more.",
+			SLEEPING = "I could kill it now.",
 		},
-		BEEFALOHAT = "What a nice hat.",
-		BEEFALOWOOL = "It smells like beefalo tears.",
-		BEEHAT = "This should keep me protected.",
-		BEEHIVE = "It's buzzing with activity.",
-		BEEMINE = "It buzzes when I shake it.",
-		BEEMINE_MAXWELL = "Bottled mosquito rage!",
-		BERRIES = "Red berries taste the best.",
-		BERRIES_COOKED = "I don't think heat improved them.",
+		BEEFALOHAT = "PETA would be pissed.",
+		BEEFALOWOOL = "PETA would be pissed.",
+		BEEHAT = "Aint no stinging today.",
+		BEEHIVE = "It has many [BEES].",
+		BEEMINE = "This could go very poorly.",
+		BEEMINE_MAXWELL = "Just when I thought the bee mine couldn't get any worse.",
+		BERRIES = "Very tasty.",
+		BERRIES_COOKED = "I didn't expect them to be better hot. They were not.",
 		BERRYBUSH =
 		{
-			BARREN = "I think it needs to be fertilized.",
-			GENERIC = "Red berries taste the best.",
-			PICKED = "Maybe they'll grow back?",
+			BARREN = "Somebody poop on it.",
+			GENERIC = "Mmm, it would make a good pie.",
+			PICKED = "Hurry up berries, I'm hungry.",
 		},
 		BIRDCAGE =
 		{
-			GENERIC = "I should put a bird in it.",
-			OCCUPIED = "That's my bird!",
-			SLEEPING = "Awwww, he's asleep.",
+			GENERIC = "\"Put a bird on it.\" - Fred Armisten",
+			OCCUPIED = "I wonder if I can teach it words.",
+			SLEEPING = "I wonder if birds snore.",
 		},
-		BIRDTRAP = "Gives me a net advantage!",
-		BIRD_EGG = "A small, normal egg.",
-		BIRD_EGG_COOKED = "Sunny side yum!",
-		BISHOP = "Back off, preacherman!",
-		BLOWDART_FIRE = "This seems fundamentally unsafe.",
-		BLOWDART_SLEEP = "Just don't breathe in.",
-		BLOWDART_PIPE = "Good practice for my birthday cake!",
-		BLUEAMULET = "Cool as ice!",
-		BLUEGEM = "It sparkles with cold energy.",
-		BLUEPRINT = "It's scientific!",
-		BLUE_CAP = "It's weird and gooey.",
-		BLUE_CAP_COOKED = "It's different now...",
+		BIRDTRAP = "Here, birdy birdy birdy.",
+		BIRD_EGG = "This would be good boiled.",
+		BIRD_EGG_COOKED = "My favorite way to eat egg.",
+		BISHOP = "LIGHTNING BOLT.",
+		BLOWDART_FIRE = "Its like a fireball.",
+		BLOWDART_SLEEP = "Sleepy time, friends.",
+		BLOWDART_PIPE = "Steve would have something to say about this...",
+		BLUEAMULET = "I'm sure that this can be explained through science.",
+		BLUEGEM = "I wonder what powers are locked within it's crystalline structure.",
+		BLUEPRINT = "Written knowledge.",
+		BLUE_CAP = "UUUUGGHHHHH Mushrooms. We should not be eating these.",
+		BLUE_CAP_COOKED = "It's no better now than it was when it was raw.",
 		BLUE_MUSHROOM =
 		{
 			GENERIC = "It's a mushroom.",
-			INGROUND = "It's sleeping.",
-			PICKED = "I wonder if it will come back?",
+			INGROUND = "Stay there.",
+			PICKED = "As long as I don't end up having to eat it.",
 		},
-		BOARDS = "Boards.",
-		BOAT = "Is that how I got here?",
-		BONESTEW = "I cooked it myself!",
-		BUGNET = "For catching bugs.",
-		BUSHHAT = "It's kind of scratchy.",
-		BUTTER = "I can't believe it's butter!",
+		BOARDS = "Nature, refined.",
+		BOAT = "Hmm, I could explore with this.",
+		BONESTEW = "This is going to be crunchy.",
+		BUGNET = "Device for gitten bugs.",
+		BUSHHAT = "As long as Steve doesn't get one of these.",
+		BUTTER = "Everything is better with butter.",
 		BUTTERFLY =
 		{
-			GENERIC = "Butterfly, flutter by.",
-			HELD = "Now I have you!",
+			GENERIC = "Through logic, I should be able to turn this into butter.",
+			HELD = "You are going to be tasty.",
 		},
-		BUTTERFLYMUFFIN = "I cooked it myself!",
-		BUTTERFLYWINGS = "Without these, it's just a butter.",
+		BUTTERFLYMUFFIN = "Butterfly wings + vegetable + sticks = muffin. The more you know...",
+		BUTTERFLYWINGS = "Its time for butter.",
 		CAMPFIRE =
 		{
-			EMBERS = "I should put something on the fire before it goes out.",
-			GENERIC = "Sure beats darkness.",
-			HIGH = "That fire is getting out of hand!",
-			LOW = "The fire's getting a bit low.",
-			NORMAL = "Nice and comfy.",
-			OUT = "Well, that's over.",
+			EMBERS = "We should get this going again.",
+			GENERIC = "Scares away the spoops.",
+			HIGH = "Burning to death is not the way to go.",
+			LOW = "The spoops may return if we dont get this going again soon.",
+			NORMAL = "Keeps the spoops away, and provides warmth. Win win.",
+			OUT = "The spoops can get us now.",
 		},
-		CANE = "It makes walking seem much easier!",
-		CARROT = "Yuck. It's all vegetabley.",
-		CARROT_COOKED = "Mushy.",
-		CARROT_PLANTED = "The earth is making plantbabies.",
-		CARROT_SEEDS = "It's a seed.",
+		CANE = "If only it had a sword hidden in it.",
+		CARROT = "This should be cleaned before we eat it.",
+		CARROT_COOKED = "It had more taste before it was cooked.",
+		CARROT_PLANTED = "Orange tuber time.",
+		CARROT_SEEDS = "Seed of carrot.",
 		CAVE_FERN = "It's a fern.",
-		CHARCOAL = "It's small, dark and smells like burnt wood.",
+		CHARCOAL = "Burn the wood to get some wood to burn some more.",
         CHESSJUNK1 = "A pile of broken chess pieces.",
         CHESSJUNK2 = "Another pile of broken chess pieces.",
         CHESSJUNK3 = "Even more broken chess pieces.",
-		CHESTER = "Otto von Chesterfield, Esq.",
+		CHESTER = "Result of genetic experimentation. At least it's cute.",
 		CHESTER_EYEBONE =
 		{
-			GENERIC = "It's looking at me.",
-			WAITING = "It went to sleep.",
+			GENERIC = "Ugh.",
+			WAITING = "Still Ugh.",
 		},
-		COOKEDMANDRAKE = "Poor little guy.",
-		COOKEDMEAT = "Char broiled to perfection.",
-		COOKEDMONSTERMEAT = "That's only somewhat more appetizing than when it was raw.",
-		COOKEDSMALLMEAT = "Now I don't have to worry about getting worms!",
+		COOKEDMANDRAKE = "It screamed while it was being cooked. And before. And always.",
+		COOKEDMEAT = "Its my favorite food group.",
+		COOKEDMONSTERMEAT = "I guess it's still meat, technically.",
+		COOKEDSMALLMEAT = "This is barely even a snack.",
 		COOKPOT =
 		{
-			COOKING_LONG = "This is going to take a while.",
-			COOKING_SHORT = "It's almost done!",
-			DONE = "Mmmmm! It's ready to eat!",
-			EMPTY = "It makes me hungry just to look at it.",
+			COOKING_LONG = "Nobody said crock pots were fast...",
+			COOKING_SHORT = "Smells good!",
+			DONE = "It's time to eat!",
+			EMPTY = "This could be used to make food.",
 		},
 		CORN = "High in fructose!",
 		CORN_COOKED = "High in fructose!",
-		CORN_SEEDS = "It's a seed.",
+		CORN_SEEDS = "Seed of corn.",
 		CROW =
 		{
-			GENERIC = "Creepy!",
-			HELD = "He's not very happy in there.",
+			GENERIC = "Surprisingly smart animals.",
+			HELD = "I could do science on this.",
 		},
-		CUTGRASS = "Cut grass, ready for arts and crafts.",
-		CUTREEDS = "Cut reeds, ready for crafting and hobbying.",
-		CUTSTONE = "I've made them seductively smooth.",
-		DEADLYFEAST = "A most potent dish.",
-		DEERCLOPS = "It's enormous!!",
-		DEERCLOPS_EYEBALL = "This is really gross.",
+		CUTGRASS = "May have some usefull uses.",
+		CUTREEDS = "May have some usefull uses.",
+		CUTSTONE = "I've made them seductively smooth. Steve would enjoy these.",
+		DEADLYFEAST = "I wouldn't eat that.",
+		DEERCLOPS = "That's about 10 feet of nope.",
+		DEERCLOPS_EYEBALL = "It is still staring at us.",
 		DEPLETED_GRASS =
 		{
-			GENERIC = "It's probably a tuft of grass.",
+			GENERIC = "Grass: it's a renewable resource.",
 		},
-		DEVTOOL = "It smells of bacon!",
+		DEVTOOL = "It smells of bacon!", -- TODO
 		DEVTOOL_NODEV = "I'm not strong enough to wield it.",
 		DIRTPILE = "It's a pile of dirt... or IS it?",
 		DIVININGROD =
@@ -783,7 +773,7 @@ return {
 		PIGSKIN = "It still has the tail on it.",
 		PIGTENT = "Smells like bacon.",
 		PIGTORCH = "Sure looks cozy.",
-		PINECONE = 
+		PINECONE =
 		{
 		    GENERIC = "I can hear a tiny tree inside it, trying to get out.",
 		    PLANTED = "It'll be a tree soon!",
@@ -833,7 +823,7 @@ return {
 			GENERIC = "It's a clump of reeds.",
 			PICKED = "I picked all the useful reeds.",
 		},
-        RELIC = 
+        RELIC =
         {
             GENERIC = "Ancient household goods.",
             BROKEN = "Nothing to work with here.",
@@ -951,7 +941,7 @@ return {
 			VALID = "It's ready to go.",
 			GEMS = "It needs more purple gems.",
 		},
-		GEMSOCKET = 
+		GEMSOCKET =
 		{
 			VALID = "Looks ready.",
 			GEMS = "It needs a gem.",
@@ -1045,7 +1035,7 @@ return {
 			OPEN = "Science compels me to jump in.",
 		},
 		WORMHOLE_LIMITED = "Guh, that thing looks worse off than usual.",
-		ACCOMPLISHMENT_SHRINE = "I want to use it, and I want the world to know what I did.",        
+		ACCOMPLISHMENT_SHRINE = "I want to use it, and I want the world to know what I did.",
 		LIVINGTREE = "Is it watching me?",
 		ICESTAFF = "It's cold to the touch",
 		REVIVER = "The beating of this hideous heart will bring a ghost back to life!",
