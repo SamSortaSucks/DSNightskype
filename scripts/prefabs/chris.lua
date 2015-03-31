@@ -53,7 +53,7 @@ local master_postinit = function(inst)
   inst.soundsname = "wilson"
 
   -- Stats
-  inst.components.health:SetMaxHealth(150)
+  inst.components.health:SetMaxHealth(140)
   inst.components.hunger:SetMax(150)
   inst.components.hunger:SetRate(TUNING.WILSON_HUNGER_RATE * 1)
   inst.components.sanity:SetMax(200)

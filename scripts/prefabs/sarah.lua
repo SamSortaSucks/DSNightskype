@@ -54,9 +54,9 @@ local master_postinit = function(inst)
 
   -- Stats
   inst.components.health:SetMaxHealth(150)
-  inst.components.hunger:SetMax(150)
+  inst.components.hunger:SetMax(250) -- Chef
   inst.components.hunger:SetRate(TUNING.WILSON_HUNGER_RATE * 1)
-  inst.components.sanity:SetMax(200)
+  inst.components.sanity:SetMax(120) -- Surrounded by idiots
 end
 
 return MakePlayerCharacter("sarah", prefabs, assets, common_postinit, master_postinit, start_inv)
