@@ -14,7 +14,7 @@ return {
 		SHAVE =
 		{
 			AWAKEBEEFALO = "I'm not going to try that while he's awake.",
-			GENERIC = "I can't shave that!",
+			GENERIC = "I can't shave that!;)",
 			NOBITS = "There isn't even any stubble left!",
 		},
 		STORE =
@@ -30,19 +30,19 @@ return {
 		},
         COOK =
         {
-            GENERIC = "I can't do that.",
-            INUSE = "I should wait my turn.",
+            GENERIC = "Why the fuck would I want to do that?...",
+            INUSE = "That best be for me.",
         },
         GIVETOPLAYER = 
         {
-        	FULL = "Their pockets are too full!",
+        	FULL = "They're too good to accept my present.",
     	},
     	GIVEALLTOPLAYER = 
         {
         	FULL = "Their pockets are too full!",
     	},
 	},
-	ACTIONFAIL_GENERIC = "I can't do that.",
+	ACTIONFAIL_GENERIC = "Why the fuck would I want to do that?...",
 	ANNOUNCE_ADVENTUREFAIL = "That didn't go well. I'll have to try again.",
 	ANNOUNCE_BEES = "BEEEEEEEEEEEEES!!!!",
 	ANNOUNCE_BOOMERANG = "Ow! I should try to catch that!",
@@ -54,17 +54,17 @@ return {
 	ANNOUNCE_DUSK = "It's getting late. It will be dark soon.",
 	ANNOUNCE_EAT =
 	{
-		GENERIC = "Yum!",
+		GENERIC = "",
 		PAINFUL = "I don't feel so good.",
-		SPOILED = "Yuck! That was terrible!",
-		STALE = "I think that was starting to turn.",
+		SPOILED = "Yuck! That tastes like how Steven looks!",
+		STALE = "I love it when food is just a little stiffer.",
 	},
 	ANNOUNCE_ENTER_DARK = "It's so dark!",
 	ANNOUNCE_ENTER_LIGHT = "I can see again!",
 	ANNOUNCE_FREEDOM = "I'm free! I'm finally free!",
-	ANNOUNCE_HIGHRESEARCH = "I feel so smart now!",
-	ANNOUNCE_HOUNDS = "Did you hear that?",
-	ANNOUNCE_HUNGRY = "I'm so hungry!",
+	ANNOUNCE_HIGHRESEARCH = "I build gooder",
+	ANNOUNCE_HOUNDS = "I like puppies. I hope they're corgies.",
+	ANNOUNCE_HUNGRY = "Sarah, feed me please.",
 	ANNOUNCE_HUNT_BEAST_NEARBY = "This track is fresh, the beast must be nearby.",
 	ANNOUNCE_HUNT_LOST_TRAIL = "The trail ends here.",
 	ANNOUNCE_INV_FULL = "I can't carry any more stuff!",
@@ -400,7 +400,7 @@ return {
 		},
 		BEEFALO =
 		{
-			FOLLOWER = "He's coming along peacefully.",
+			FOLLOWER = "March My Pritties...",
 			GENERIC = "It's a beefalo!",
 			NAKED = "Aww, he's so sad.",
 			SLEEPING = "These guys are really heavy sleepers.",
@@ -793,7 +793,7 @@ return {
 		PLANTMEAT_COOKED = "At least it's warm now.",
 		PLANT_NORMAL =
 		{
-			GENERIC = "Leafy!",
+			GENERIC = "Smoke Weed Erry Day",
 			GROWING = "Guh! It's growing so slowly!",
 			READY = "Mmmm. Ready to harvest.",
 		},
@@ -815,7 +815,7 @@ return {
 			HELD = "Do you like science?",
 		},
 		RABBITHOLE = "That must lead to the Kingdom of the Bunnymen.",
-		RAINOMETER = "It measures cloudiness.",
+		RAINOMETER = "IT GOIN' RAIN!",
 		RATATOUILLE = "I cooked it myself!",
 		RAZOR = "A sharpened rock tied to a stick. Hygienic!",
 		REDGEM = "It sparkles with inner warmth.",
@@ -885,7 +885,7 @@ return {
 		SEWING_KIT = "Darn it! Darn it all to heck!",
 		SHOVEL = "There's a lot going on underground.",
 		SILK = "It comes from a spider's butt.",
-		SKELETON = "Better him than me.",
+		SKELETON = "Doot Doot Doot",
 		SKULLCHEST = "I'm not sure if I want to open it.",
 		SMALLBIRD =
 		{
